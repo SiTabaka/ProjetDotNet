@@ -26,6 +26,12 @@ namespace QuidditchWP
         {
             InitializeComponent();
         }
+
+        private void StadiumClicked(object sender, RoutedEventArgs e)
+        {
+            StadiumWindow stadiumWindow = new StadiumWindow();
+            stadiumWindow.Show();
+        }
     }
 
     public class Matchees : ObservableCollection<string>
