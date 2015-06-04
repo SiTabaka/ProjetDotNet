@@ -32,6 +32,18 @@ namespace QuidditchWP
             StadiumWindow stadiumWindow = new StadiumWindow();
             stadiumWindow.Show();
         }
+
+        private void GoalKeeperClicked(object sender, RoutedEventArgs e)
+        {
+            GoalKeeperWindow goalKeeperWindow = new GoalKeeperWindow();
+            goalKeeperWindow.Show();
+        }
+
+        private void CatcherClicked(object sender, RoutedEventArgs e)
+        {
+            CatcherWindow catcherWindow = new CatcherWindow();
+            catcherWindow.Show();
+        }
     }
 
     public class Matchees : ObservableCollection<string>
