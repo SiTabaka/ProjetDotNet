@@ -26,6 +26,18 @@ namespace QuidditchWP
         {
             InitializeComponent();
         }
+
+        private void CatcherClicked(object sender, RoutedEventArgs e)
+        {
+            CatcherWindow window = new CatcherWindow();
+            window.Show();
+        }
+
+        private void GoalKeeperClicked(object sender, RoutedEventArgs e)
+        {
+            GoalKeeperWindow window = new GoalKeeperWindow();
+            window.Show();
+        }
     }
 
     public class Matchees : ObservableCollection<string>
