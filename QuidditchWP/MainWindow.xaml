@@ -5,7 +5,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel>
-            <Label FontWeight="Bold" FontSize="20">Quidditch World Cup</Label>
+            <Label FontWeight="Bold" FontSize="20">Quidditch  World Cup</Label>
             <DockPanel>
                 <Grid Width="300" DockPanel.Dock="Left" Margin="5">
                     <Grid.Resources>
