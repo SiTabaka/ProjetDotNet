@@ -18,22 +18,22 @@ namespace QuidditchWP
 {
     public partial class CatcherWindow : Window
     {
+        ObservableCollection<Catcher> catchers;
+
         public CatcherWindow()
         {
             InitializeComponent();
-        }
-    }
-
-    public class Catchers : ObservableCollection<string>
-    {
-        public Catchers()
-        {
             PlayerManager playerManager = new PlayerManager();
             IEnumerable<string> listCatcher = playerManager.GetCatchers();
+
+            catchers = new ObservableCollection<Catcher>();
+            
             foreach (string catcher in listCatcher)
             {
-                Add(catcher);
+                catchers.Add(new Catcher(catcher));
             }
+
+            this.DataContext = catchers;
         }
     }
 }

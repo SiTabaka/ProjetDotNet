@@ -3,15 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:src="clr-namespace:QuidditchWP"
         Title="Catcher list" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="CatchersListBox">
+            <Grid Height="200" Width="450">
+                <TextBlock Text="{Binding Name}" Width="450" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1"/>
+            </Grid>
+        </DataTemplate>
 
+    </Window.Resources>
     <Grid Margin="10,0,2,0" Height="320" VerticalAlignment="Top">
 
         <StackPanel DockPanel.Dock="Left" Margin="10,5">
-            <StackPanel.Resources>
-                <src:Catchers x:Key="catchers"/>
-            </StackPanel.Resources>
             <Label FontWeight="Bold" FontSize="15">Catcher list</Label>
-            <ListBox ItemsSource="{StaticResource catchers}">
+            <ListBox ItemTemplate="{StaticResource CatchersListBox}" ItemsSource="{Binding Path=Name, Mode=TwoWay}" x:Name="listBoxMyCatchers" >
             </ListBox>
         </StackPanel>
     </Grid>
