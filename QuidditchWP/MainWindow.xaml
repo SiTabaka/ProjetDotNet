@@ -1,0 +1,28 @@
+﻿<Window x:Class="QuidditchWP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:src="clr-namespace:QuidditchWP"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Label FontWeight="Bold" FontSize="20">Quidditch World Cup</Label>
+            <DockPanel>
+                <Grid Width="300" DockPanel.Dock="Left" Margin="5">
+                    <Grid.Resources>
+                        <src:Matchees x:Key="matches"/>
+                    </Grid.Resources>
+                    <Label FontWeight="Bold" FontSize="15">Next Matches :</Label>
+                    <ListBox ItemsSource="{StaticResource matches}">
+                    </ListBox>
+                </Grid>
+                <StackPanel DockPanel.Dock="Right" Margin="5">
+                    <Label FontWeight="Bold" FontSize="15">Main Menu :</Label>
+                    <Button>Stadium</Button>
+                    <Button>Catcher</Button>
+                    <Button>Goalkeeper</Button>
+                    <Button Content="Available places"/>
+                </StackPanel>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+BusinessLayer/bin
+<<<<<<< HEAD
+DataAcessLayer/bin
+QuidditchManager/bin
+QuidditchWP/bin
+BusinessLayer/obj
+DataAcessLayer/obj
+QuidditchManager/obj
+QuidditchWP/obj
+=======
+BusinessLayer/obj
+DataAcessLayer/bin
+DataAcessLayer/obj
+QuidditchManager/bin
+QuidditchManager/obj
+>>>>>>> 21c4069c6ed6ad2fe49b5b369a26ae5a73142517
