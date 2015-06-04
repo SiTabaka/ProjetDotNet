@@ -7,11 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{6E75E890-8492-4249-9EEA-AD9A29A5077D}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchWP", "QuidditchWP\QuidditchWP.csproj", "{EE47CE9D-1520-4BD8-AA6E-52B987582E39}"
 EndProject
-=======
->>>>>>> 21c4069c6ed6ad2fe49b5b369a26ae5a73142517
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,13 +27,10 @@ Global
 		{6E75E890-8492-4249-9EEA-AD9A29A5077D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E75E890-8492-4249-9EEA-AD9A29A5077D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E75E890-8492-4249-9EEA-AD9A29A5077D}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{EE47CE9D-1520-4BD8-AA6E-52B987582E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE47CE9D-1520-4BD8-AA6E-52B987582E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE47CE9D-1520-4BD8-AA6E-52B987582E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE47CE9D-1520-4BD8-AA6E-52B987582E39}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> 21c4069c6ed6ad2fe49b5b369a26ae5a73142517
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

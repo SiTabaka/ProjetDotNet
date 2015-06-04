@@ -17,9 +17,15 @@
                 </StackPanel>
                 <StackPanel DockPanel.Dock="Right" Margin="5">
                     <Label FontWeight="Bold" FontSize="15">Main Menu :</Label>
+<<<<<<< HEAD
                     <Button Content="Stadium" Click="StadiumClicked"/>
                     <Button Content="Catcher"/>
                     <Button Content="Goalkeeper"/>
+=======
+                    <Button>Stadium</Button>
+                    <Button Click="CatcherClicked">Catcher</Button>
+                    <Button Click="GoalKeeperClicked">Goalkeeper</Button>
+>>>>>>> GitHub/master
                     <Button Content="Available places"/>
                 </StackPanel>
             </DockPanel>
